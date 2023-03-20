@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,42 @@
     <link rel="shortcut icon" href="./assets/icon/icon.ico" type="image/x-icon">
     <title>HomePage | CerVeza Y Más</title>
 </head>
+
 <body>
-    
+
+    <nav>
+        <p class="navLogo">Primer Desafio</p>
+        <ul class="navList" id="navBar">
+            <li><a href="./error404/error404.html">Gana un millon de dolares!</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form id="form">
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" placeholder="Usuario" required><br>
+
+            <label for="linkedin">Enlace de LinkedIn:</label>
+            <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/usuario" required><br>
+
+            <label for="facebook">Enlace de Facebook:</label>
+            <input type="url" id="facebook" name="facebook" placeholder="https://www.facebook.com/usuario" required><br>
+
+            <label for="github">Enlace de Github:</label>
+            <input type="url" id="github" name="github" placeholder="https://github.com/usuario" required><br>
+<div class="buttons">
+            <input type="submit" value="Iniciar sesión">
+            <input type="reset" value="Borrar datos">
+</div>
+
+        </form>
+    </main>
+
+    <footer>
+        <h2 id="footerName">Hola!</h2>
+    </footer>
+
+    <script src="js/app.js"></script>
 </body>
+
 </html>

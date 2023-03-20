@@ -1,0 +1,16 @@
+div {
+    margin: 5em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 50vw;
+    background: #fff;
+    border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+}
+
+div img{
+    width: 250px;
+}

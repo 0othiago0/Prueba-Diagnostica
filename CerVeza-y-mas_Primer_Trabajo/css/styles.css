@@ -1,0 +1,114 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 3vh 1vw;
+}
+
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background: #fff;
+    border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+    font-size: 1.3rem;
+    z-index: 100;
+    width: 95vw;
+    margin: auto;
+}
+
+nav .navLogo {
+    font-size: 1.5em;
+    margin-left: 1em;
+    color: #02c997;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+nav a {
+    color: #6b7688;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-family: "Roboto", sans-serif;
+}
+
+nav a:hover {
+    color: #02c997;
+}
+
+nav .navList {
+    list-style: none;
+    display: flex;
+    z-index: 100;
+}
+
+nav .navList li {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 1em;
+}
+
+
+
+
+footer {
+    background: #fff;
+    border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+    height: 10vh;
+    position: relative;
+    bottom: 0;
+    width: 95vw;
+    margin: 4vh auto;
+}
+
+footer h2 {
+    display: flex;
+    font-size: 1.5rem;
+    color: #02c997;
+    padding: 20px;
+    justify-content: center;
+}
+
+#form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+    font-family: Arial, sans-serif;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#form input[type="text"],
+#form input[type="url"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#form input[type="submit"],
+#form input[type="reset"] {
+    background-color: #005cbf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+}
